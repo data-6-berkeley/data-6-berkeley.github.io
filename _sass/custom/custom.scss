@@ -25,6 +25,12 @@ code {
 .side-bar {
   max-width: 10vw !important;
 }
+.main {
+  max-width: 90vw !important;
+}
+@media (min-width: 50rem) {
+  .main { max-width: 100% !important;}
+}
 
 div.highlighter-rouge[overlay] {
   position: relative;
