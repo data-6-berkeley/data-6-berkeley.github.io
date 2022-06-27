@@ -28,6 +28,11 @@ code {
 .main {
   max-width: 90vw !important;
 }
+@media (min-width: 66.5rem) {
+  .side-bar { width: 248px !important;}
+  .main { margin-left: 264px !important;}
+}
+
 @media (min-width: 50rem) {
   .main { max-width: 100% !important;}
 }
