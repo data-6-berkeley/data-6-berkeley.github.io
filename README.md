@@ -6,7 +6,7 @@ nav_exclude: true
 permalink: index.html
 ---
 
-<img src="/assets/d6-header.png" id="logo"/>
+<img src="/assets/data6.png" id="logo"/>
 
 # Introduction to Computational Thinking with Data
 {: .mb-2 }
