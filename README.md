@@ -19,3 +19,7 @@ UC Berkeley
 3. [Spring 2021](http://data94.org)
 
 From the course catalog: Data 6 course is an introduction to computational thinking and quantitative reasoning, designed to prepare students for further coursework in data science, computer science, and statistics (in particular, Foundations of Data Science, Data C8). This course emphasizes the use of computation to gain insight about quantitative problems with real data from the social sciences.
+
+<hr>
+
+Data 6 was [developed](https://data6.org/su22/syllabus/#acknowledgements-) by students and faculty at UC Berkeley and Tuskegee University.
