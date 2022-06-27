@@ -22,12 +22,7 @@ code {
   border: none;
 }
 
-.side-bar {
-  max-width: 10vw !important;
-}
-.main {
-  max-width: 90vw !important;
-}
+
 @media (min-width: 66.5rem) {
   .side-bar { width: 248px !important;}
   .main { margin-left: 264px !important;}
