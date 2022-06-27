@@ -18,6 +18,7 @@ description: Introduction to Computational Thinking with Data
 author: UC Berkeley
 baseurl: ~ # the subpath of your site, e.g. /blog
 url: 'https://data6.org' # the base hostname & protocol for your site, e.g. http://example.com
+logo: "/assets/data6.png"
 
 # Theme settings
 remote_theme: pmarsceill/just-the-docs@v0.2.5-release
@@ -30,3 +31,5 @@ footer: >-
 # Collections for website data
 collections:
 # Default layouts for each collection type
+
+# Footer
