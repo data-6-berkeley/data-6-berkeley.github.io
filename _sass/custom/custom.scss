@@ -22,6 +22,9 @@ code {
   border: none;
 }
 
+a {
+  color: $blue-100;
+}
 
 @media (min-width: 66.5rem) {
   .side-bar { width: 248px !important;}
