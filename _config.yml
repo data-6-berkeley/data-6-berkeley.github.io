@@ -33,3 +33,4 @@ collections:
 # Default layouts for each collection type
 
 # Footer
+footer_content: "Data 6 at UC Berkeley was <a href="https://data6.org/su22/syllabus/#acknowledgements-">developed</a> by students and faculty at UC Berkeley and Tuskegee University"
