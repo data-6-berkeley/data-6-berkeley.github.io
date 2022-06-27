@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.github_repo }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Data 6
-description: Introduction to Computational Thinking with Data
-author: UC Berkeley
-baseurl: ~ # the subpath of your site, e.g. /blog
-url: 'https://data6.org' # the base hostname & protocol for your site, e.g. http://example.com
-logo: "/assets/data6.png"
+title: Just the Class
+tagline: A Jekyll template for course websites
+description: A modern, highly customizable, responsive Jekyll template for course websites
+author: Kevin Lin
+baseurl: '/just-the-class' # the subpath of your site, e.g. /blog
+url: 'https://kevinl.info' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE"]
 
 # Theme settings
@@ -27,10 +27,42 @@ color_scheme: light
 search_enabled: true
 heading_anchors: true
 permalink: pretty
-footer_content: "Data 6 at UC Berkeley was <a href="https://data6.org/su22/syllabus/#acknowledgements-">developed</a> by students and faculty at UC Berkeley and Tuskegee University"
+aux_links:
+  Kevin Lin:
+    - 'https://kevinl.info'
+  Just the Class on GitHub:
+    - 'https://github.com/kevinlin1/just-the-class'
+footer_content:
 
-
+# Collections for website data
+collections:
+  staffers:
+  modules:
+  schedules:
+  announcements:
 # Default layouts for each collection type
+defaults:
+  - scope:
+      path: ''
+      type: staffers
+    values:
+      layout: staffer
+      subpath: '/assets/images/'
+  - scope:
+      path: ''
+      type: modules
+    values:
+      layout: module
+  - scope:
+      path: ''
+      type: schedules
+    values:
+      layout: schedule
+  - scope:
+      path: ''
+      type: announcements
+    values:
+      layout: announcement
 
 compress_html:
   clippings: all
