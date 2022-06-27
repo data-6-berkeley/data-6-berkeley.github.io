@@ -6,7 +6,9 @@ nav_exclude: true
 permalink: index.html
 ---
 
-# Data 6: Introduction to Computational Thinking with Data
+<img src="/assets/d6-header.png"/>
+
+# Introduction to Computational Thinking with Data
 {: .mb-2 }
 UC Berkeley
 {: .mb-0 .fs-6 .text-grey-dk-000 }
