@@ -29,35 +29,8 @@ heading_anchors: true
 permalink: pretty
 footer_content: "Data 6 at UC Berkeley was <a href="https://data6.org/su22/syllabus/#acknowledgements-">developed</a> by students and faculty at UC Berkeley and Tuskegee University"
 
-# Collections for website data
-collections:
-  staffers:
-  modules:
-  schedules:
-  announcements:
+
 # Default layouts for each collection type
-defaults:
-  - scope:
-      path: ''
-      type: staffers
-    values:
-      layout: staffer
-      subpath: '/assets/images/'
-  - scope:
-      path: ''
-      type: modules
-    values:
-      layout: module
-  - scope:
-      path: ''
-      type: schedules
-    values:
-      layout: schedule
-  - scope:
-      path: ''
-      type: announcements
-    values:
-      layout: announcement
 
 compress_html:
   clippings: all
