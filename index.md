@@ -5,7 +5,7 @@ tagline: Introduction to Computational Thinking with Data
 nav_exclude: true
 ---
 
-# Introduction to Computational Thinking with Data
+# Data 6: Introduction to Computational Thinking with Data
 {: .mb-2 }
 UC Berkeley
 {: .mb-0 .fs-6 .text-grey-dk-000 }
