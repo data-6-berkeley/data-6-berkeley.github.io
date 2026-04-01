@@ -21,7 +21,7 @@ UC Berkeley Data 6 combines inferential and computational thinking as applied to
 * [Summer 2023](./su23)
 * [Summer 2022](./su22)
 * [Summer 2021](./su21)
-* [Spring 2021](http://data94.org)
+* Spring 2021
 
 ## Acknowledgements
 
